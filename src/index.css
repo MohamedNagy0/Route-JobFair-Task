@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color-1: #0f172a;
+    --primary-color-2: #18a8e9;
+    --primary-bg-1: #fff;
+    --primary-bg-2: #334263;
+    --primary-bg-3: #18a8e9;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    color: var(--primary-color-1);
+    background-color: var(--primary-bg-1);
+}
+
+/* Start Scroll Style */
+::-webkit-scrollbar {
+    height: 7px;
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #c9c9c9;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:vertical {
+    background: #c9c9c9;
+    border-radius: 10px;
+}
+/* End Scroll Style */
